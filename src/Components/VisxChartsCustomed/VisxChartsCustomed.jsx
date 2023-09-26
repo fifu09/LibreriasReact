@@ -31,6 +31,7 @@ const VisxChartsCustomed = ({ data, width, height, margin }) => {
       <AxisBottom top={height - margin.bottom} scale={xScale} numTicks={6} />
       <AxisLeft left={margin.left} scale={yScale} numTicks={6} />
     </svg>
+    
   );
 };
 
