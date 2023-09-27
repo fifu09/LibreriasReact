@@ -7,7 +7,7 @@ export function GoogleChartsCustomed({ chartData, options }) {
     data={chartData} // Provide the data to be displayed in the chart.
     options={options} // Customize the chart appearance and behavior.
     width="100%" // Set the chart width to 100% of its container.
-    height="400px" // Set the chart height to 400 pixels.
+    height="100%" // Set the chart height to 400 pixels.
     legendToggle // Enable legend toggling for user interaction.
     />
   );

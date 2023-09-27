@@ -2,9 +2,9 @@
 import {GoogleChartsCustomed} from "../Components/GoogleChartsCustomed/GoogleChartsCustomed"
 
 export function GoogleCharts({ data }) {
-  const chartData = [["Date", "Price"]]; // Agrega los encabezados de las columnas
-  data.forEach((item) => {
-    chartData.push([item.date, item.price]); // Agrega cada fila de datos
+  const chartData = [["Date", "Price"]]; // En google charts, el array de datos recibe en la primera posicion 
+  data.forEach((item) => {               // el "titulo" del resto de datos. Y la primera columna siempre es el eje X
+    chartData.push([item.date, item.price]);
   });
   
   const options = {
