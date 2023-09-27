@@ -10,14 +10,14 @@ import { VisxCharts } from "./Pages/VisxCharts";
 
 function App() {
   return (
-    <>
-      <HighCharts data={bitcoinData}/>
-      <Recharts data={bitcoinData}/>
-      <GoogleCharts data={bitcoinData}/>
-      <VictoryCharts data={bitcoinData}/>
-      <React_chartjs_2 data={bitcoinData}/>
-      <VisxCharts data={bitcoinData}/>
-    </>
+    <section className="body">
+      <div><HighCharts data={bitcoinData}/></div>
+      <div><Recharts data={bitcoinData}/></div>
+      <div><GoogleCharts data={bitcoinData}/></div>
+      <div><VictoryCharts data={bitcoinData}/></div>
+      <div><React_chartjs_2 data={bitcoinData}/></div>
+      <div><VisxCharts data={bitcoinData}/></div>
+    </section>
   );
 }
 

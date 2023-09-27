@@ -1,4 +1,3 @@
-import React from "react";
 import { VictoryChartsCustomed } from "../Components/VictoryChartsCustomed/VictoryChartsCustomed";
 
 function convertToArray(data) {

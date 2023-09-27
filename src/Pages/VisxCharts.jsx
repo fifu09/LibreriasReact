@@ -1,4 +1,3 @@
-import React from "react";
 import VisxChartsCustomed from "../Components/VisxChartsCustomed/VisxChartsCustomed";
 
 export function VisxCharts({ data }) {

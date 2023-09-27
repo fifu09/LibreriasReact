@@ -1,4 +1,3 @@
-import React from "react";
 import { LinePath } from "@visx/shape";
 import { scaleLinear, scalePoint } from "@visx/scale";
 import { curveCardinal } from "@visx/curve";

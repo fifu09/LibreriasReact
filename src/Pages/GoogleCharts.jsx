@@ -1,4 +1,4 @@
-import React from "react";
+
 import {GoogleChartsCustomed} from "../Components/GoogleChartsCustomed/GoogleChartsCustomed"
 
 export function GoogleCharts({ data }) {

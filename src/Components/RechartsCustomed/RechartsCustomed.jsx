@@ -1,4 +1,3 @@
-import React from "react";
 import {
   LineChart,
   Line,
@@ -25,12 +24,12 @@ export function RechartsCustomed({data,xAxis, yAxis}) {
           bottom: 5,
         }}
       >
-        <CartesianGrid /> // Provides grid lines for reference
-        <XAxis dataKey={xAxis} /> // Defines the X-axis with specified data key
-        <YAxis dataKey={yAxis} /> // Defines the Y-axis with specified data key 
-        <Tooltip /> // Displays data tooltips on hover
-        <Legend /> // Adds a series legend
-        <Line type="monotone" dataKey={yAxis} stroke="#000" /> // Configures a line series with specified data key and stroke color
+        <CartesianGrid /> 
+        <XAxis dataKey={xAxis} /> 
+        <YAxis dataKey={yAxis} /> 
+        <Tooltip /> 
+        <Legend />
+        <Line type="monotone" dataKey={yAxis} stroke="#000" />
       </LineChart>
     </ResponsiveContainer>
   );
